@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layoutVertical"
+    tools:context=".RachaActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout style="@style/layoutVertical" >
+
+            <TextView
+                style="@style/labelSimpleTopMargin"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="@color/Verde_azulado"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:text="@string/jogadores_do_racha"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRachaPlayers"
+                style="@style/inputText"
+                android:hint="@string/selecione_todos_jogadores_presentes" >
+            </TextView>
+
+            <TextView
+                style="@style/labelSimpleTopMargin"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="@color/Verde_azulado"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:text="@string/jogadores_por_time"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTeamSize"
+                style="@style/inputText"
+                android:hint="@string/selecione_a_quantidade" >
+            </TextView>
+
+            <Button
+                android:id="@+id/btGenerateRacha"
+                android:layout_margin="12dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gerar_times" />
+
+            <TextView
+                style="@style/labelSimpleTopMargin"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="@color/Verde_azulado"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:text="@string/times_gerados"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRachaTeams"
+                style="@style/inputText"
+                android:maxLines="100"
+                android:textSize="12sp"
+                android:gravity="left"
+                android:layout_height="wrap_content"
+                android:hint="@string/times_gerados_" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

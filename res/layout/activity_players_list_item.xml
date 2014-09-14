@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layoutVertical"
+    tools:context=".MainMenuActivity"
+    android:layout_gravity="center_horizontal"
+     android:gravity="center_horizontal" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="1dp" >
+
+        <ImageView
+            android:id="@+id/menuPlayerImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/menu_item"
+            android:padding="2dp"
+            android:minWidth="70dp"
+            android:src="@drawable/ic_user" />
+
+        <TextView
+            android:id="@+id/tvMenuPlayerName"
+            style="@style/menuItem"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:text="@string/nome_jogador" />
+    </LinearLayout>
+    
+
+
+        <TextView
+            android:id="@+id/tvMenuPlayerGoalKeeperSkills"
+            style="@style/menuItem"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:text="@string/habilidades_de_goleiro_10"
+            android:minWidth="200dp" />
+    
+
+
+        <TextView
+            android:id="@+id/tvMenuPlayerDefenseSkills"
+            style="@style/menuItem"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:text="@string/habilidades_de_defensonr_10"
+            android:minWidth="200dp" />
+
+
+       
+        <TextView
+            android:id="@+id/tvMenuPlayerAttackSkills"
+            style="@style/menuItem"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:text="@string/habilidades_de_atacante_10"
+            android:minWidth="200dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:background="@color/Branco"
+        android:gravity="center" />
+
+</LinearLayout>

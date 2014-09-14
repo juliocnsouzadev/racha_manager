@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Racha Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_principal">Menu Principal</string>
+    <string name="menu_item">menu item</string>
+    <string name="title_activity_players">Jogadores</string>
+    <string name="title_activity_racha">Racha</string>
+    <string name="novo_jogador">Novo Jogador</string>
+    <string name="title_activity_player_edit">Editar ou Adicionar Jogador</string>
+    <string name="salvar">Salvar</string>
+    <string name="habilidades_ataque">habilidades ataque</string>
+    <string name="habilidades_defesa">habilidades defesa</string>
+    <string name="habilidades_goleiro">habilidades goleiro</string>
+    <string name="insira_o_nome_do_jogador">insira o nome do jogador</string>
+    <string name="nome_do_jogador">nome do jogador</string>
+    <string name="nome_jogador">nome jogador</string>
+    <string name="habilidades_de_goleiro_10">habilidades de goleiro: 10</string>
+    <string name="habilidades_de_defensonr_10">habilidades de defensonr: 10</string>
+    <string name="habilidades_de_atacante_10">habilidades de atacante: 10</string>
+    <string name="jogadores_do_racha">jogadores do racha</string>
+    <string name="selecione_todos_jogadores_presentes">selecione todos jogadores presentes</string>
+    <string name="jogadores_por_time">jogadores por time</string>
+    <string name="selecione_a_quantidade">selecione a quantidade</string>
+    <string name="gerar_times">Gerar Times</string>
+    <string name="times_gerados">times gerados</string>
+    <string name="times_gerados_">times gerados...</string>
+
+</resources>

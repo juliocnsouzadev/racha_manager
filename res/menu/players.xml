@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.juliocnsouza.rachamanager.PlayersActivity" >
+
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/novo_jogador"/>
+
+</menu>

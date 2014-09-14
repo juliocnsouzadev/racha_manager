@@ -1,0 +1,191 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- Application Layouts -->
+
+    <style name="layoutVertical" parent="AppTheme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/Preto</item>
+    </style>
+
+    <style name="layoutVerticalMenu" parent="AppTheme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:background">@color/CinzaMenu</item>
+    </style>
+
+    <style name="layoutVerticalWidth800" parent="AppTheme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">800dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/Preto</item>
+    </style>
+
+    <style name="layoutVerticalWidth150" parent="AppTheme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/Preto</item>
+    </style>
+
+
+
+
+    <!-- Application Components -->
+
+
+    <style name="menuItem">
+        <item name="android:textColor">@color/Branco</item>
+        <item name="android:background">@color/Preto</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+
+    <style name="resultOutputText">
+        <item name="android:textColor">@color/Branco</item>
+        <item name="android:background">@color/Preto</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+
+    <style name="labelSimple">
+        <item name="android:textColor">@color/Branco</item>
+        <item name="android:background">@color/Preto</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="labelBradcrumb">
+        <item name="android:textColor">@color/Branco</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="labelSimpleTopMargin">
+        <item name="android:textColor">@color/Branco</item>
+        <item name="android:background">@color/Preto</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+    
+    <style name="inputText">
+        <item name="android:textColor">@color/Branco</item>
+        <item name="android:background">@drawable/inputtex_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:minLines">1</item>
+    </style>
+
+    <!-- check -->
+
+    <style name="cardLayoutVerticalWidth800" parent="AppTheme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">800dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/Preto</item>
+    </style>
+
+    <!-- new styles -->
+
+    <style name="layoutVerticalWidth700" parent="AppTheme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">700dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/Preto</item>
+    </style>
+
+    <style name="layoutVerticalWidth100" parent="AppTheme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/Preto</item>
+    </style>
+
+
+    <style name="breadcrumb">
+        <item name="android:textColor">@color/Branco</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="breadcrumbTop" parent="breadcrumb">
+        <item name="android:textColor">@color/Branco</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+
+
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+</resources>

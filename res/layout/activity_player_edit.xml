@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layoutVertical"
+    tools:context=".PlayerEditActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout style="@style/layoutVertical" >
+
+            <TextView
+                style="@style/labelSimpleTopMargin"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="@color/Verde_azulado"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:text="@string/nome_do_jogador"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etPlayerName"
+                style="@style/inputText"
+                android:hint="@string/insira_o_nome_do_jogador"
+                android:inputType="textCapWords" >
+            </EditText>
+
+            <TextView
+                style="@style/labelSimpleTopMargin"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="@color/Verde_azulado"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:text="@string/habilidades_goleiro"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/rbGoalKeeperSkills"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5" />
+
+            <TextView
+                style="@style/labelSimpleTopMargin"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="@color/Verde_azulado"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:text="@string/habilidades_defesa"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/rbDefenserSkills"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5" />
+
+            <TextView
+                style="@style/labelSimpleTopMargin"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="@color/Verde_azulado"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:text="@string/habilidades_ataque"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/rbAttackSkills"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5" />
+
+            
+            <Button
+                android:id="@+id/btConfirmPlayer"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/salvar" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
